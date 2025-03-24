@@ -1,0 +1,6 @@
+{
+  "screen.cet_vocabulary.submit": "Submit",
+  "screen.cet_vocabulary.close": "Close",
+  "screen.cet_vocabulary.cooldown": "Next time: %s",
+  "screen.cet_vocabulary.remain_chance": "Remaining Chance: %s"
+}

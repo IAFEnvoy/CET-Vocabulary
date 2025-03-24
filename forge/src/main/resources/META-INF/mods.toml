@@ -1,0 +1,28 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+#issueTrackerURL = ""
+license = "LGPL-3.0"
+
+[[mods]]
+modId = "cet_vocabulary"
+version = "${version}"
+displayName = "CET Vocabulary"
+authors = "IAFEnvoy"
+description = '''
+Let's learn English in game!
+'''
+logoFile = "logo.png"
+
+[[dependencies.cet_vocabulary]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.cet_vocabulary]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,)"
+ordering = "NONE"
+side = "BOTH"

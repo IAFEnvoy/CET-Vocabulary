@@ -1,0 +1,6 @@
+{
+  "screen.cet_vocabulary.submit": "确认",
+  "screen.cet_vocabulary.close": "关闭",
+  "screen.cet_vocabulary.cooldown": "下次时间: %s",
+  "screen.cet_vocabulary.remain_chance": "剩余失败次数: %s"
+}

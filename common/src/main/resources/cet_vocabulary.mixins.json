@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "com.iafenvoy.cet.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "minVersion": "0.8",
+  "client": [
+    "InGameHudMixin"
+  ],
+  "mixins": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

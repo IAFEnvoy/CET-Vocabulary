@@ -1,0 +1,18 @@
+{
+  "bingo": {
+    "sounds": [
+      {
+        "name": "cet_vocabulary:bingo",
+        "stream": false
+      }
+    ]
+  },
+  "wrong": {
+    "sounds": [
+      {
+        "name": "cet_vocabulary:wrong",
+        "stream": false
+      }
+    ]
+  }
+}
