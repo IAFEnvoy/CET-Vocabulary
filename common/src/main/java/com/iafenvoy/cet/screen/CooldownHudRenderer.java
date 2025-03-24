@@ -11,7 +11,7 @@ import net.minecraft.client.gui.DrawContext;
 @Environment(EnvType.CLIENT)
 public class CooldownHudRenderer {
     public static void render(DrawContext context) {
-        if (!CETConfig.INSTANCE.renderTime) return;
+        if (!CETConfig.INSTANCE.enable || !CETConfig.INSTANCE.renderTime) return;
         int scaledHeight = context.getScaledWindowHeight();
         TextRenderer textRenderer = MinecraftClient.getInstance().textRenderer;
         context.drawTextWithShadow(textRenderer, ExamCounter.formatFirstText(), 10, scaledHeight - 30, -1);

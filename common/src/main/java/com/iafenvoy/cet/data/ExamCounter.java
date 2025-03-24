@@ -17,6 +17,7 @@ public class ExamCounter {
     private static int FAILURE_REMAIN = CETConfig.INSTANCE.maxFailureChance;
 
     public static void tick() {
+        if (!CETConfig.INSTANCE.enable) return;
         MinecraftClient client = MinecraftClient.getInstance();
         COOLDOWN--;
         if (COOLDOWN == 0)
